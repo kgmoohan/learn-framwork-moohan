@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * @author makejava
  * @since 2022-01-19 14:40:03
  */
-@Service("studentService")
+@Service
 public class StudentServiceImpl extends ServiceImpl<StudentDao, Student> implements StudentService {
 
 }

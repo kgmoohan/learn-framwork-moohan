@@ -22,8 +22,7 @@ public class StudentInput {
     @NotNull(message = "邮箱不能为空")
     private String email;
     @NotNull(message = "性别不能为空")
-    private String sex;
-    @NotNull(message = "生日不能为空")
+    private Integer sex;
     @Past(message = "生日范围不正确")
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     @JsonFormat(timezone = "GMT+8", pattern = "yyyy-MM-dd")

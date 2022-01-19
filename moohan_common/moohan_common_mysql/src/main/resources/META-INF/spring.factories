@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.moohan.common.mysql.config.DBAutoConfiguration

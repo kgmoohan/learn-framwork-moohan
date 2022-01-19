@@ -17,8 +17,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.baomidou</groupId>
-			<artifactId>mybatis-plus-boot-starter</artifactId>
+			<groupId>com.moohan</groupId>
+			<artifactId>moohan_common_mysql</artifactId>
 		</dependency>
 	</dependencies>
 </project>
