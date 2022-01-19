@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.moohan.common.web.config.AutoWebConfiguration
+org.springframework.context.ApplicationListener=\
+com.moohan.common.web.log.LogMDCListener
